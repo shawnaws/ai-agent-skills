@@ -1,13 +1,13 @@
 ---
-name: data-transfer-cost-audit
+name: network-and-transfer-cost-audit
 description: Analyzes AWS networking and data transfer costs across public IPv4 addresses, NAT Gateway, Transit Gateway, VPC peering, PrivateLink interface endpoints, inter-AZ, inter-region, and internet egress. Identifies top cost drivers, surfaces VPC endpoint savings opportunities, and guides progressive investigation using Cost Explorer, CloudWatch, and optionally VPC Flow Logs. Use when the user says "data transfer costs", "NAT Gateway charges", "why is my networking bill so high", "inter-AZ transfer costs", "egress costs", "public IPv4 costs", "Transit Gateway charges", "PrivateLink costs", "VPC endpoint charges", "VPC flow logs analysis", "data transfer breakdown", or "what's driving my EC2-Other charges".
-version: "0.6.0"
+version: "0.7.0"
 keywords: [aws, data-transfer, nat-gateway, inter-az, egress, cost-optimization, vpc, flow-logs, networking, cost-explorer, privatelink, vpc-peering]
 author: shawnsmc@amazon.com
 license: MIT
 ---
 
-# Data Transfer Cost Audit
+# Network and Transfer Cost Audit
 
 Identifies and attributes AWS data transfer costs across NAT Gateway processing, inter-AZ transfers, inter-region transfers, and internet egress. Uses a progressive investigation approach — starting with Cost Explorer (always available) and escalating to CloudWatch and VPC Flow Logs for deeper attribution when needed.
 

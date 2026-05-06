@@ -20,6 +20,7 @@ No code to deploy. No infrastructure to manage. Just markdown that makes your ag
 | Skill | Description |
 |-------|-------------|
 | [extended-support-audit](./extended-support-audit) | Audit AWS resources for extended support charges and EOL version risk across ElastiCache, RDS, Lambda, EKS, OpenSearch, DocumentDB, Neptune, and MSK |
+| [network-and-transfer-cost-audit](./network-and-transfer-cost-audit) | Audit AWS networking and data transfer costs — NAT Gateway, public IPv4, Transit Gateway, PrivateLink, VPC peering, inter-AZ, inter-region, and internet egress — with progressive investigation through Cost Explorer, CloudWatch, and VPC Flow Logs |
 
 ## Installation
 
